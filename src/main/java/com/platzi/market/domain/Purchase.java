@@ -7,11 +7,10 @@ public class Purchase {
     private int purchaseId;
     private String clientId;
     private LocalDateTime date;
-    private  String paymentMethod;
+    private String paymentMethod;
     private String comment;
     private String state;
     private List<PurchaseItem> items;
-
 
     public int getPurchaseId() {
         return purchaseId;
@@ -65,7 +64,7 @@ public class Purchase {
         return items;
     }
 
-    public void setItem(List<PurchaseItem> items) {
+    public void setItems(List<PurchaseItem> items) {
         this.items = items;
     }
 }
